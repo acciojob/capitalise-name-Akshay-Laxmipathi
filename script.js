@@ -3,5 +3,5 @@ let inp = document.getElementById("fname");
 inp.addEventListener("blur", upperCase);
 
 function upperCase() {
-	inp.innerText.toUpperCase();
+	document.getElementById("fname").innerText.toUpperCase();
 }
